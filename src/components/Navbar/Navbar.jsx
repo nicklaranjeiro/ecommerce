@@ -19,7 +19,7 @@ const Navbar = ( {totalItems}) => {
                         XStock
                     </Typography>
                     <div className={classes.grow} />
-                    { location.pathname === '/ecommerce' && (
+                    { location.pathname === '/ecommerce/' && (
                     <div className={classes.button}>
                         <IconButton component={Link} to="/cart" aria-label="Show cart items" color="inherit">
                             <Badge badgeContent={totalItems} color="secondary">
